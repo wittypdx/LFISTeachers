@@ -1,0 +1,13 @@
+.itunes img {
+	width: 30px;
+	float: left; 
+}
+
+.itunes h4 {
+	line-height: 200%;
+}
+
+.itunes a img:hover {
+	opacity: .75; 
+}
+
