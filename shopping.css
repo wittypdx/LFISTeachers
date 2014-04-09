@@ -1,0 +1,25 @@
+.shopping img {
+	width: 35%;
+	margin: 0 3% 3% 0;
+	padding-bottom: 10%;
+	float: left;
+}
+
+.shopping a img:hover {
+	opacity: .75; 
+}
+
+.btn, .btn-default {
+	background-color: #75B9AF; 
+	font-size: 1.2em;
+	margin: .5% 0 3% 5%;
+}
+
+.btn, .btn-default a {
+	color: white;
+}
+
+.shopping_button a:hover {
+	text-decoration: none; 
+	color: #F08D80;
+}
