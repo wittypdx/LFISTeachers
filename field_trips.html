@@ -65,12 +65,12 @@
         <h1>Field Trips</h1>
         <p>Field trips are an important part of our curriculum. Each class is allowed 4 field trips a year (these include on-site activities such as Bug Chicks or Penny's Puppets). For GS and up you are allotted an additional fifth field trip that is the English teacher's choosing. Below please find suggested field trip possibilities. If you want to plan a field trip in a different subject area please <a href="mailto:d.witt@letoilefrenchschool.com">contact me</a> and chacnes are I can reach out to local businesses to set something up.</P>
         <p>To request a field trip you can <a href="mailto:d.witt@letoilefrenchschool.com">contact me</a> directly or submit the following form.</p>
-        <form>
+        <form action="MAILTO:d.witt@letoilefrenchschool.com?subject=Field Trip Request" method="post" enctype="text/plain">
           <div class="row">
             <div class="col-md-3">
               Teacher's name: <input type="text" name="teachername">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
               Class: <select name="class">
               <option value="TPS/PS">TPS/PS</option>
               <option value="PS/MS">PS/MS</option>
@@ -78,10 +78,16 @@
               <option value="CP">CP</option>
               <option value="CE1/CE2">CE1/CE2</option>
               <option value="CM1">CM1</option>
+              <option value="Combo">Combination</option>
               </select>
             </div>
-            <div class="col-md-3">
-              Field trip name: <input type="text" name="fieldtrip">
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              Field trip location: <input type="text" name="fieldtrip">
+            </div>
+            <div class="col-md-6">
+              Field trip activity (if applicable): <input type ="text" name="fieldtrip">
             </div>
           </div>
           <div class="row">
@@ -97,10 +103,33 @@
           </div>
           <div class="row">
             <div class="col-md-3">
-              
+              # Students: <input type="text" name="#students">
             </div>
-          <div>
+            <div class="col-md-3">
+              # Teachers: <input type="text" name="#students">
+            </div>
+            <div class="col-md-5">
+              # Parent Chaperones Requested: <input type="text" name="#chaperones">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              Transportation: <select name="transportation">
+              <option value="onsite">On-site</option>
+              <option value="charterbus">Charter bus</option>
+              <option value="Trimet">Trimet</option>
+              <option value="parentdriver">Parent drivers</option>
+              </select>
+            </div>
+            <div class="col-md-5">
+              Notes: <input type="text" name="notes" size="60">
+            </div>
+            <div class="col-md-2">
+              <input type="submit" value="Submit">
+            </div>
+          </div>
         </form>
+        
       </main>
 
       <footer>
