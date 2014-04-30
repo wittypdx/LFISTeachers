@@ -33,6 +33,19 @@ nav a {
 	color: white;
 }
 
+button.btn.btn-lg.btn-default {
+	background-color: #F08D80; 
+	border: #F08D80;
+}
+
+.schedule.dropdown-menu {
+	background-color: #F08D80;
+}
+
+.bluenav.dropdown-menu {
+	background-color: #75B9AF;
+}
+
 nav a:hover {
 	background-color: #A3B9AF; 
 	color: darkgrey;
