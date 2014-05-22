@@ -3,7 +3,9 @@ body {
 	background: url("site_images/lfis.background.gif"), repeat;
 }
 
-
+p {
+	font-size: 1.15em;
+}
 .container {
 	width: 100%;
   max-width: 1100px;
