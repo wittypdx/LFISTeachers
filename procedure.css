@@ -13,3 +13,15 @@
 .concussion ul {
 	list-style-image: url(site_images/first_aid.png);
 }
+
+.bullying ul {
+	list-style-image: url(site_images/bullying.png);
+	padding-left: 10%;
+	padding-right: 10%; 
+}
+
+.bullying a {
+	font-weight: bold; 
+	background-color: red;
+	color: darkgrey;
+}
